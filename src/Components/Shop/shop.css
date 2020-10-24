@@ -1,0 +1,17 @@
+.twin-container{
+    display: flex;
+}
+.product-container{
+    width: 70%;
+    margin-left: 30px;
+    margin-right: 5px;
+    border-right: 1px solid lightcoral;
+    
+    
+}
+
+.cart-container{
+    padding-left: 100px;
+    
+    
+}
