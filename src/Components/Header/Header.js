@@ -19,11 +19,11 @@ const Header = () => {
               loggedInUser.email
               ?
               <>
-              <Link><button  >{loggedInUser.name}</button></Link>
-              <button onClick={()=> setLoggedInUser({})}  color="inherit">Sign Out</button>
+              <Link>{loggedInUser.name}</Link>
+              <Link onClick={()=> setLoggedInUser({})}>Sign Out</Link>
               </>
               :
-              <Link to="/login" ><button >Login</button></Link>
+              <Link to="/login" >Login</Link>
             }
            
             </nav>
